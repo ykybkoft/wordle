@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(172, 171, 171);
+  padding-bottom: 5px;
+}
+
+.menu-icon__img,
+.header-icons__img {
+  width: 30px;
+}
+
+.header-icons__img {
+  margin-left: 5px;
+}
+
+.header-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+}
