@@ -18,9 +18,11 @@ footer {
   width: 40px;
   height: 60px;
   font-size: 23px;
+  cursor: pointer;
 }
 
-.enter-back,
+.enter,
+.back,
 .keyboard-block {
   background-color: #ccd0d4;
   border-radius: 3px;
@@ -28,13 +30,25 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+  font-weight: bold;
 }
 
-.enter-back {
+.enter,
+.back {
   width: 70px;
   height: 60px;
 }
 
-.enter-back img {
+.back img {
   width: 30px;
+}
+
+@keyframes gameResult {
+  from {
+    transform: scale(0.2);
+  }
+  to {
+    transform: scale(1.5) rotate(360deg);
+  }
 }
